@@ -39,8 +39,8 @@ public class GetThread implements Runnable {
                                 System.out.println(m);
                             } else if (m.getTo().equals(login)) {
                                 System.out.println(m);
-                            } else if(m.getFrom().equals(login)){
-                                System.out.println("private message sent");
+//                            } else if(m.getFrom().equals(login)){
+//                                System.out.println("private message sent");
                             }
                             n++;
                         }

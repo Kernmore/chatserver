@@ -36,5 +36,14 @@ public class UsersList {
         return false;
     }
 
+    public void setStatus(User user) {
+        for (User u : users) {
+            if(u.getLogin().equals(user.getLogin())){
+                boolean b = user.isActive();
+                u.setActive(b);
+            }
+        }
+    }
+
 
 }
